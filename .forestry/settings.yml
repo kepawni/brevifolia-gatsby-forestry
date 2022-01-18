@@ -20,10 +20,13 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
-- type: document
-  path: README.md
+- type: directory
+  path: ''
   label: readme
-  match: "**/*"
+  create: documents
+  match: README.md
+  templates:
+  - readme
 - type: heading
   label: General Config
 - type: document
