@@ -28,7 +28,7 @@ sections:
 - type: document
   path: package.json
   label: dependencies
-  read_only: true
+  read_only: false
 upload_dir: content/images
 public_path: "/content/images"
 front_matter_path: ''
