@@ -28,7 +28,6 @@ sections:
 - type: document
   path: package.json
   label: dependencies
-  match: "**/*"
   read_only: true
 upload_dir: content/images
 public_path: "/content/images"

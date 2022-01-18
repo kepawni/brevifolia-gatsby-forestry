@@ -1,0 +1,128 @@
+---
+label: dependencies
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: boolean
+  name: private
+  label: private
+- type: text
+  name: description
+  label: description
+- type: text
+  name: license
+  label: license
+- type: text
+  name: version
+  label: version
+- type: text
+  name: author
+  label: author
+- type: field_group
+  name: scripts
+  label: scripts
+  fields:
+  - type: text
+    name: build
+    label: build
+  - type: text
+    name: dev
+    label: dev
+  - type: text
+    name: develop
+    label: develop
+  - type: text
+    name: format
+    label: format
+  - type: text
+    name: start
+    label: start
+  - type: text
+    name: serve
+    label: serve
+  - type: text
+    name: test
+    label: test
+  - type: text
+    name: forestry-preview
+    label: forestry-preview
+- type: field_group
+  name: dependencies
+  label: dependencies
+  fields:
+  - type: text
+    name: gatsby
+    label: gatsby
+  - type: text
+    name: gatsby-image
+    label: gatsby-image
+  - type: text
+    name: gatsby-plugin-react-helmet
+    label: gatsby-plugin-react-helmet
+  - type: text
+    name: gatsby-plugin-sass
+    label: gatsby-plugin-sass
+  - type: text
+    name: gatsby-plugin-sharp
+    label: gatsby-plugin-sharp
+  - type: text
+    name: gatsby-remark-images
+    label: gatsby-remark-images
+  - type: text
+    name: gatsby-remark-normalize-paths
+    label: gatsby-remark-normalize-paths
+  - type: text
+    name: gatsby-remark-relative-images
+    label: gatsby-remark-relative-images
+  - type: text
+    name: gatsby-source-filesystem
+    label: gatsby-source-filesystem
+  - type: text
+    name: gatsby-transformer-remark
+    label: gatsby-transformer-remark
+  - type: text
+    name: gatsby-transformer-sharp
+    label: gatsby-transformer-sharp
+  - type: text
+    name: gatsby-transformer-yaml
+    label: gatsby-transformer-yaml
+  - type: text
+    name: node-sass
+    label: node-sass
+  - type: text
+    name: react
+    label: react
+  - type: text
+    name: react-dom
+    label: react-dom
+  - type: text
+    name: react-helmet
+    label: react-helmet
+  - type: text
+    name: typescript
+    label: typescript
+  - type: text
+    name: webpack
+    label: webpack
+- type: field_group
+  name: devDependencies
+  label: devDependencies
+  fields:
+  - type: text
+    name: prettier
+    label: prettier
+- type: list
+  name: keywords
+  label: keywords
+- type: field_group
+  name: repository
+  label: repository
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: url
+    label: url
